@@ -66,10 +66,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@stlite/desktop@*":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@stlite/desktop/-/desktop-0.10.2.tgz#b935aae37415d5b0364915e588c390faa0bd2bee"
-  integrity sha512-N0gRnBU/kWj9il32wwewxg7vfE1MNzZ9Vwy+Bvm6lyMwnG//mS5nRlW4dfRxyXmbtreuNIyb+DDkwybtlosWgw==
+"@stlite/desktop@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@stlite/desktop/-/desktop-0.11.0.tgz#afa0f39391d6273b7ef2a6e9ef4ec6f33510d081"
+  integrity sha512-IFYMRN4vJzYOOA+IhzYXxTRQbGdC8Zs1PS5jdmKDYGJSJnGO/CCaKcDJmRG23HzJUiC2KSuW01+dsFW6vKJ5nA==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
