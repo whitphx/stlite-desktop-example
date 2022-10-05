@@ -1,0 +1,30 @@
+{
+  "name": "stlite-desktop-example",
+  "version": "0.1.0",
+  "repository": "https://github.com/whitphx/stlite-desktop-example.git",
+  "author": "Yuichiro Tachibana (Tsuchiya) <t.yic.yt@gmail.com>",
+  "license": "MIT",
+  "main": "./build/electron/main.js",
+  "scripts": {
+    "dump": "dump-stlite-desktop-artifacts",
+    "serve": "NODE_ENV=\"production\" electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "files": [
+      "build/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "devDependencies": {
+    "@stlite/desktop": "*",
+    "electron": "20.2.0",
+    "electron-builder": "^23.3.3",
+    "node-fetch": "2",
+    "pyodide": "^0.21.3"
+  }
+}
