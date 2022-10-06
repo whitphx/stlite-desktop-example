@@ -1,0 +1,31 @@
+name: Build app
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    env:
+      node-version: "16.x"
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ env.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ env.node-version }}
+        cache: 'yarn'
+    - run: yarn install --frozen-lockfile
+    - run: yarn dump streamlit_app -r matplotlib
+    - run: yarn dist
+    - name: Upload the artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        path: dist
+        name: streamlit-desktop-sample
