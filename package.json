@@ -21,10 +21,8 @@
     }
   },
   "devDependencies": {
-    "@stlite/desktop": "^0.11.0",
+    "@stlite/desktop-cli": "^0.12.0",
     "electron": "20.2.0",
-    "electron-builder": "^23.3.3",
-    "node-fetch": "2",
-    "pyodide": "^0.21.3"
+    "electron-builder": "^23.3.3"
   }
 }
