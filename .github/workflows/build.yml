@@ -33,5 +33,8 @@ jobs:
     - name: Upload the artifacts
       uses: actions/upload-artifact@v2
       with:
-        path: dist
+        path: |
+          dist/*.exe
+          dist/*.dmg
+          dist/*.snap
         name: streamlit-desktop-sample-${{ matrix.os }}
