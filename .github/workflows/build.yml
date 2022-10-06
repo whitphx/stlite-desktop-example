@@ -9,7 +9,11 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
 
     env:
       node-version: "16.x"
@@ -28,4 +32,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         path: dist
-        name: streamlit-desktop-sample
+        name: streamlit-desktop-sample-${{ matrix.os }}
