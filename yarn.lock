@@ -66,19 +66,19 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@stlite/desktop-cli@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@stlite/desktop-cli/-/desktop-cli-0.12.0.tgz#e5b9679d0803d38365e18a40c72d03748d3e0869"
-  integrity sha512-zSCfb0WWQQQDQ6MBH+MmwbaYQW+APrvZ1YJUz4gSGC7FQlt2ImsdXfQofey3C1HziXw4yE3EHRa3zseddmrWOQ==
+"@stlite/desktop-cli@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@stlite/desktop-cli/-/desktop-cli-0.16.0.tgz#78e25aaf7fd6fbd3dcaf9ae13409dbc71a1d12e5"
+  integrity sha512-2Uil0vrHD+xPvSMcsVYTJHZIwq8ygMdFlFfQ+dTMQ73abHKHVMHpfLV5tc9uWla613VdUEBbiAgWY45z+ls1hw==
   dependencies:
-    "@stlite/desktop" "^0.12.0"
+    "@stlite/desktop" "^0.16.0"
     node-fetch "2"
-    pyodide "^0.21.0"
+    pyodide "^0.21.3"
 
-"@stlite/desktop@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@stlite/desktop/-/desktop-0.12.0.tgz#1d7736d4acc948e0924ee5bb54dc9d624faa773d"
-  integrity sha512-XNLGufRpUp9T41EKBpqQz7NZ3kdG2+64JAtNq7i9gVXWPKhsfCp5rAAUTW86rtjmgXINv8UY5KUlWNBrug2boQ==
+"@stlite/desktop@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@stlite/desktop/-/desktop-0.16.0.tgz#d5aacc60cabf87ec3be66228812c9cdd59feae64"
+  integrity sha512-xzL8MqNTFGRx8pEb9i/UH9/B+tozpFy2knV5UT1jzxWu7jCK4z5CFFBz03uIlVJGc22aNYcc5fBtZWUTjUXq8g==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -1479,7 +1479,7 @@ pupa@^2.1.1:
   dependencies:
     escape-goat "^2.0.0"
 
-pyodide@^0.21.0:
+pyodide@^0.21.3:
   version "0.21.3"
   resolved "https://registry.yarnpkg.com/pyodide/-/pyodide-0.21.3.tgz#0be64868231fa59a5372a1191d157a9e8d83e9d7"
   integrity sha512-5fu5P8ys8V8tKTsK9lag0HattbZQuFRdnNzv1LLOLCieM9A96OPs2cF29lPpcD9N+8GuUtfrGCWEMKiupTHUlA==
