@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ env.node-version }}
         cache: 'yarn'
     - run: yarn install --frozen-lockfile
-    - run: yarn dump streamlit_app -r matplotlib
+    - run: yarn dump streamlit_app matplotlib
     - run: yarn dist
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
