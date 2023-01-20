@@ -17,3 +17,5 @@ fig, ax = plt.subplots()
 ax.hist(arr, bins=20)
 
 st.pyplot(fig)
+
+st.image("./img/logo192.png")
