@@ -22,7 +22,7 @@
     }
   },
   "devDependencies": {
-    "@stlite/desktop": "^0.21.0",
+    "@stlite/desktop": "^0.22.2",
     "electron": "22.0.0",
     "electron-builder": "^23.6.0"
   }

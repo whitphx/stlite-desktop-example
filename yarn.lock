@@ -65,10 +65,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
   integrity sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==
 
-"@stlite/desktop@^0.21.0":
-  version "0.21.3"
-  resolved "https://registry.yarnpkg.com/@stlite/desktop/-/desktop-0.21.3.tgz#bc2f3dc9af1fc3541124dc05056b0a3c5e25153d"
-  integrity sha512-CbcYxV5/54uQ08EFMlYWNHfJRdpIscuDHwgDKRMB9c7zLAc2KafNtxQrVhOIJeNidysxHGjtoS3sIw/CfajcWA==
+"@stlite/desktop@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.yarnpkg.com/@stlite/desktop/-/desktop-0.22.2.tgz#e3433a0d86e571b1d278b643e3a780259a5753f6"
+  integrity sha512-jXXmnN704Scnc5wyI9D9nLhWSYe8SANPMEexLiYLmzZKwk/K+wi2H8pBX4OKg6ibES2wI5q+PNd9rW//oglQPg==
   dependencies:
     fs-extra "^10.1.0"
     node-fetch "2"
